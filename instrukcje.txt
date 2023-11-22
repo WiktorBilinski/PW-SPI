@@ -1,0 +1,16 @@
+touch nazwa.sh 
+chmod +X nazwa.sh   chmod -X nazwa.sh       chmod a+x (nadanie uprawnień wsyztkim wykonania)
+./nazwa.sh
+chmod 777 (nadanie uprawneiń napisu odczytu wykonania)
+la -la nazwa pliku (sprawdzenie uprawnień pliku)
+
+
+chmod u=rwx, g=rx, o=r nazwa.sh
+
+chmod go-w nazwa.sh
+
+chmod -R 644 katalog/ #4 -read,write (właściciel - read, write; pozstali -read)
+
+-R recursive (wszystkie pliki w katalogu)
+
+chmod --help (komenda, funkcja help)
